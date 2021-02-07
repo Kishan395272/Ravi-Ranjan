@@ -1,4 +1,6 @@
-//Write a program to add two user input numbers using one function.#include<stdio.h>
+//Write a program to add two user input numbers using one function.
+
+#include<stdio.h>
 int main()
 {
 int a,b,x;
