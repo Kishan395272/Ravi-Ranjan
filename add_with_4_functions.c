@@ -3,41 +3,37 @@
 
 
 
+
+
+
 #include<stdio.h>
 #include<math.h>
-int first num()
+int main()
 {
-int num;
-//for taking user input of first number
-
-printf("Enter the value first number");
-scanf("%d",&num);
-return num;
+int x1,x2,sum;
+//for enter 1st number by taking value of x1
+int value1(int x1)
+{
+printf("enter first number\n");
+scanf("%d",&x1);
+return x1;
 }
-Int second num()
+int value2(int x2)
 {
-Int num;
-//for taking user input of second number
-
-printf("Enter the value of second number");
-scanf("%d",&num);
-
-return num;
+printf("Enter second number\n");
+scanf("%d",&x2);
+return x2;
 }
-Int add two num(int first num,int second num)
+int sum(x1,x2)
 {
-return (first num+second num);
+return x1+x2;
 }
-Int print(int sum);
-{
-printf("The sum of two number will be "%d\n",sum);
+printf("The total sum for %d and &d=%d",sum);
 }
-Int main()
 {
-Int a=first num();
-Int b=second num();
-Int sum=add two num(a,b);
-print(sum);
-return 0;
+value1();
+value2();
+sum=sum(x1,x2);
+print();
 }
 
