@@ -3,21 +3,25 @@
 
 
 
-#include<stdio.h>
+
+#include<stdio.h> 
+#include<math.h>
 int main()
 {
-//3 criteria is given that is h,b,d
+//3 things already  given that is h(height),b(breadth),d(depth)
+
 float  h,b,d,volume;
-printf("put value of height,breadth,depth:");
-scanf("%f","%f","%f",&h,&b,&d);
+
+printf("put value of h,b,d:\n");
+scanf("%f%f%f",&h,&b,&d);
 
 //using tromboloid formulae volume will be 
 
-vol=(1/3(h*b*d)+d/b;
-printf("the volume of tromboloid will be %f",vol);
+volume=(h*b*d)/3+d/b;
+
+printf("the volume of tromboloid will be %f",volume);
 return 0;
 }
-
 
 
 
