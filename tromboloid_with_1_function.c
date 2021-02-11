@@ -4,6 +4,9 @@
 
 
 
+
+
+
 #include<stdio.h> 
 #include<math.h>
 int main()
@@ -17,12 +20,9 @@ scanf("%f%f%f",&h,&b,&d);
 
 //using tromboloid formulae volume will be 
 
-volume=(h*b*d)/3+d/b;
+volume=((h*d)+d)/(3*b);
 
 printf("the volume of tromboloid will be %f",volume);
 return 0;
 }
-
-
-
 
