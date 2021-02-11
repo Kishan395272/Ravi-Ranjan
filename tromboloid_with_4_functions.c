@@ -4,47 +4,26 @@
 
 
 #include<stdio.h>
+#include<math.h>
 int main()
 {
-float h,b,d,vol;
-float height();
-float breadth();
-float depth();
-float volume (float h,float b,float d);
-h=height();
+float h,b,d,volume;
+float a,c,d;
+//Here (h=height,b=breadth,d=depth)
 
-b=breadth();
-
-d=depth();
-
-vol=volume(h,b,d);
-printf("volume=%f",vol);
-return 0;
-}
-
-float height()
+float h()
 {
-float x;
-printf("Enter  H of tromboloid:");
-scanf("%f",&x);
-return x;
-}
-float breadth()
-{
-float y;
-printf("Enter B of tromboloid:");
-scanf("%f",&y);
-return y;
-}
-float depth()
-{
-float z;
-printf("Enter D of tromboloid:");
-scanf("%f",&z);
-return z;
-}
-float volume(float h,float b,float d)
-{
-float a=((h*d)+d)/(3*b);
+float a;
+printf("Put the value of h\n");
+scanf("%f",&a);
 return a;
+}
+float b()
+{
+float k;
+printf("put the value of b\n");
+scanf('%f",&k);
+return b;
+}
+
 
